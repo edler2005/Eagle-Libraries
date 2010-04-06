@@ -1,3 +1,24 @@
 Repository for Cadsoft Eagle library files
 
-Repository now contains a submodule for the Adafruit library.  If you clone it, remember to also do a 'git submodule init', or you won't be pulling the submodule.  I think - submodules are still black magic to me.
+Clone the library for the first time:
+Install git, get a github account, set up your SSH keys and configuration then fork the library. 
+
+This will create a fork of the Eagle Libraries under you list of Repositories.  Next:
+
+$ git clone git@github.com:yourGitHubUsername/Eagle-Libraries.git
+
+Then, because this repository contains a submodule (The Adafruit library) you need to:
+
+$ cd Eagle-Libraries
+$ git submodule init
+$ git submodule update
+
+Once you've got a local copy of the libraries, you can make changes.
+
+If you add a new library file, you'll need to tell git to add it to the repo with:
+
+$ git add Category/manufacturer.lbr
+
+After you've made your changes, you can commit them to the github repp with:
+
+$ git commit -am "Message describing what you've changed."
