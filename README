@@ -1,4 +1,6 @@
-Repository for Cadsoft Eagle library files
+Repository for Cadsoft Eagle library files.
+
+Only a fool trusts a package she hasn't made or at least carefully verified herself.  This collection is provided with absolutely no guarantees of correctness.
 
 Clone the library for the first time:
 Install git, get a github account, set up your SSH keys and configuration then fork the library. 
