@@ -28,3 +28,5 @@ $ git commit -am "Message describing what you've changed."
 Then, you can upload those changes to the GitHub version of the repo with:
 
 $ git push origin master
+
+Bill was here.
